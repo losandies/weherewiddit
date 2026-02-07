@@ -16,9 +16,8 @@ export const metadata: Metadata = {
     title: "💌 For You",
     description: "Open this.",
     openGraph: {
-        title: "💌 For You",
+        title: "Open Me!",
         description: "Open this.",
-        images: ["/preview.png"],
     },
 };
 
