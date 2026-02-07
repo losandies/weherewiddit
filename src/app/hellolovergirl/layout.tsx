@@ -1,4 +1,15 @@
+import { Metadata } from "next";
 import "./lovergirl.module.css";
+
+export const metadata: Metadata = {
+    title: "💌 For You",
+    description: "Open this.",
+    themeColor: "#f8c8dc",
+    openGraph: {
+        title: "Open Me!",
+        description: "Open this.",
+    },
+};
 
 export default function HelloLoverGirlLayout({
     children,
